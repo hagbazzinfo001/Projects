@@ -97,6 +97,13 @@ function App() {
           showFeaturedOnly={showFeaturedOnly}
           onFeaturedToggle={() => setShowFeaturedOnly(!showFeaturedOnly)}
           categories={categories}
+          onDownload={() => {
+            // Example logic for download: export filtered projects as JSON file
+            const resumeLink = document.createElement("a");
+            resumeLink.href = "/src/CV - Hammed Agbabiaka (1).pdf"; // served from public folder
+            resumeLink.setAttribute("download", "Hammed_Agbabiaka_Resume.pdf");
+            resumeLink.click();
+          }}
         />
 
         {filteredProjects.length === 0 ? (
