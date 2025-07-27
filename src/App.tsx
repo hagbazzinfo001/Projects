@@ -6,7 +6,7 @@ import { FilterBar } from "./components/FilterBar";
 import { Stats } from "./components/Stats";
 import { projects } from "./data/projects";
 import { Project } from "./types/Project";
-
+import resume from "./CV-Agbabiaka Hammed.pdf";
 function App() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [searchTerm, setSearchTerm] = useState("");
@@ -100,7 +100,7 @@ function App() {
           onDownload={() => {
             // Example logic for download: export filtered projects as JSON file
             const resumeLink = document.createElement("a");
-            resumeLink.href = "/src/CV-Agbabiaka Hammed.pdf"; // served from public folder
+            resumeLink.href = "/CV-Agbabiaka Hammed.pdf"; // served from public folder
             resumeLink.setAttribute("download", "Hammed_Agbabiaka_Resume.pdf");
             resumeLink.click();
           }}
