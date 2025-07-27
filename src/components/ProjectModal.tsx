@@ -122,7 +122,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({
               <div className="mb-8">
                 <h3 className="flex items-center text-lg font-semibold text-gray-900 mb-3">
                   <Code className="w-5 h-5 mr-2 text-blue-600" />
-                  Technologies Used
+                  Technologies/Tool Used
                 </h3>
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech, index) => (

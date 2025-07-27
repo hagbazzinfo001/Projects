@@ -9,7 +9,8 @@ export const projects: Project[] = [
     category: "Web Development",
     tags: ["React", "TypeScript", "Tailwind CSS", "e-commerce"],
     imageUrl:
-      "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://res.cloudinary.com/dr0qnjp1s/image/upload/v1753390318/WhatsApp_Image_2025-06-14_at_09.48.56_cd11a714_yobdik.jpg",
+    // "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800",
     completedDate: "On-going",
     duration: "2 months",
     technologies: [
@@ -91,7 +92,7 @@ export const projects: Project[] = [
   },
   {
     id: "6",
-    title: "NGbooking Website ( lone)",
+    title: "NGbooking Website (Clone)",
     description:
       "A responsive clone of a real-world hotel website featuring interactive booking forms, room showcases, image sliders, sign in & up page, and customer review sections. Built to demonstrate layout replication and user-centric UI design.",
     category: "Web Development",
